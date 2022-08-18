@@ -1,0 +1,9 @@
+*** Email Customizer for WooCommerce Changelog ***
+
+2021-07-01 - version 2.1.1
+* Fixed: Email Preview function
+* Fixed: Support Flexible Checkout field plugin by WPDesk
+* Supported: Dokan new templates in extra modules (YayMail Premium Addon)
+
+2021-05-25 - version 2.0.7
+* Initial release

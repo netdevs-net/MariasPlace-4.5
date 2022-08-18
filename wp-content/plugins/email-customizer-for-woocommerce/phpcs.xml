@@ -1,0 +1,117 @@
+<?xml version="1.0"?>
+<ruleset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="Example Project">
+
+	<description>A custom set of rules to check for a WPized WordPress project</description>
+
+	<!-- Exclude WP Core folders and files from being checked. -->
+	<exclude-pattern>/docroot/wp-admin/*</exclude-pattern>
+	<exclude-pattern>/docroot/wp-includes/*</exclude-pattern>
+	<exclude-pattern>/docroot/wp-*.php</exclude-pattern>
+	<exclude-pattern>/docroot/index.php</exclude-pattern>
+	<exclude-pattern>/docroot/xmlrpc.php</exclude-pattern>
+	<exclude-pattern>/docroot/wp-content/plugins/*</exclude-pattern>
+
+	<!-- Exclude the Composer Vendor directory. -->
+	<exclude-pattern>/vendor/*</exclude-pattern>
+	<exclude-pattern>/apps/*</exclude-pattern>
+	<exclude-pattern>/assets/*</exclude-pattern>
+	<!-- Exclude the Node Modules directory. -->
+	<exclude-pattern>/node_modules/*</exclude-pattern>
+
+	<!-- Exclude minified Javascript files. -->
+	<exclude-pattern>*.min.js</exclude-pattern>
+
+	<!-- Include the WordPress-Extra standard. -->
+	<!-- <rule ref="WordPress-Extra"> -->
+		<!--
+		We may want a middle ground though. The best way to do this is add the
+		entire ruleset, then rule by rule, remove ones that don't suit a project.
+		We can do this by running `phpcs` with the '-s' flag, which allows us to
+		see the names of the sniffs reporting errors.
+		Once we know the sniff names, we can opt to exclude sniffs which don't
+		suit our project like so.
+
+		The below two examples just show how you can exclude rules.
+		They are not intended as advice about which sniffs to exclude.
+		-->
+
+		<!--
+		<exclude name="WordPress.WhiteSpace.ControlStructureSpacing"/>
+		<exclude name="WordPress.Security.EscapeOutput"/>
+		-->
+	<!-- </rule> -->
+
+
+	<!-- Let's also check that everything is properly documented. -->
+	<!-- <rule ref="WordPress-Docs"/> -->
+
+	<!-- Add in some extra rules from other standards. -->
+	<rule ref="Generic.CodeAnalysis.UnusedFunctionParameter"/>
+	<rule ref="Generic.Commenting.Todo"/>
+	
+	<rule ref="WordPress">
+		<exclude name="WordPress.NamingConventions"/>
+		<exclude name="Squiz.Commenting.FileComment.MissingPackageTag"/>
+		<exclude name="Generic.Files.LineEndings.InvalidEOLChar"/>
+		<exclude name="Squiz.Commenting"/>
+		<exclude name="WordPress.Files.FileName"/>
+		<exclude name="Squiz.PHP.CommentedOutCode"/>
+		<exclude name="WordPress.PHP.StrictComparisons"/>
+		<exclude name="WordPress.PHP.StrictInArray"/>
+		<exclude name="WordPress.PHP.DevelopmentFunctions"/>
+		<exclude name="WordPress.Security.ValidatedSanitizedInput.MissingUnslash"/>
+		<exclude name="WordPress.WhiteSpace.PrecisionAlignment.Found"/>
+		<exclude name="WordPress.WP.AlternativeFunctions"/>
+		<exclude name="WordPress.WP.I18n.TextDomainMismatch"/>
+		<exclude name="WordPress.PHP.NoSilencedErrors"/>
+		<exclude name="Generic.CodeAnalysis"/>
+		<exclude name="PSR2.Methods"/>
+		<exclude name="WordPress.Security.NonceVerification.Recommended"/>
+		<exclude name="WordPress.DateTime.CurrentTimeTimestamp.Requested"/>
+		<exclude name="WordPress.DB"/>
+		<exclude name="WordPress.WP.I18n.NonSingularStringLiteralText"/>
+		<exclude name="WordPress.CodeAnalysis.AssignmentInCondition.Found"/>
+	</rule>
+	<!-- Check for PHP cross-version compatibility. -->
+	<!--
+	To enable this, the PHPCompatibilityWP standard needs
+	to be installed.
+	See the readme for installation instructions:
+	https://github.com/PHPCompatibility/PHPCompatibilityWP
+	For more information, also see:
+	https://github.com/PHPCompatibility/PHPCompatibility
+	-->
+	<!--
+	<config name="testVersion" value="5.2-"/>
+	<rule ref="PHPCompatibilityWP"/>
+	-->
+
+	<!--
+	To get the optimal benefits of using WPCS, we should add a couple of
+	custom properties.
+	Adjust the values of these properties to fit our needs.
+
+	For information on additional custom properties available, check out
+	the wiki:
+	https://github.com/WordPress/WordPress-Coding-Standards/wiki/Customizable-sniff-properties
+	-->
+	<config name="minimum_supported_wp_version" value="4.9"/>
+
+	<rule ref="WordPress.WP.I18n">
+		<properties>
+			<property name="text_domain" type="array">
+				<element value="my-textdomain"/>
+				<element value="library-textdomain"/>
+			</property>
+		</properties>
+	</rule>
+
+	<!-- <rule ref="WordPress.NamingConventions.PrefixAllGlobals">
+		<properties>
+			<property name="prefixes" type="array">
+				<element value="YAYMAIL"/>
+			</property>
+		</properties>
+	</rule> -->
+
+</ruleset>

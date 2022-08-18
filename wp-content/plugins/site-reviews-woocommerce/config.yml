@@ -1,0 +1,15 @@
+bump:
+  - readme.txt
+  - site-reviews-woocommerce.php
+language:
+  destination: languages/
+  domain: site-reviews-woocommerce
+  team: Gemini Labs <support@geminilabs.io>
+  translator: Paul Ryley <paul@geminilabs.io>
+  watch:
+    - config/**/*.php
+    - plugin/**/*.php
+    - templates/**/*.php
+    - views/**/*.php
+    - '*.php'
+

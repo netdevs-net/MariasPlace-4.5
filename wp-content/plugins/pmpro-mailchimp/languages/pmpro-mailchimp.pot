@@ -1,0 +1,248 @@
+# Copyright (C) 2020 Stranger Studios
+# This file is distributed under the same license as the Paid Memberships Pro - Mailchimp Add On plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Paid Memberships Pro - Mailchimp Add On 2.2.1\n"
+"Report-Msgid-Bugs-To: info@paidmembershipspro.com\n"
+"Last-Translator: Paid Memberships Pro <info@paidmembershipspro.com>\n"
+"Language-Team: Paid Memberships Pro <info@paidmembershipspro.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2020-02-04T14:35:52+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.3.0\n"
+
+#. Plugin Name of the plugin
+msgid "Paid Memberships Pro - Mailchimp Add On"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "http://www.paidmembershipspro.com/pmpro-mailchimp/"
+msgstr ""
+
+#. Description of the plugin
+msgid "Sync your WordPress users and members with Mailchimp audiences."
+msgstr ""
+
+#. Author of the plugin
+msgid "Stranger Studios"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://www.strangerstudios.com"
+msgstr ""
+
+#: includes/class.mailchimp.api.php:118
+msgid "Sorry, but Mailchimp was unable to verify your API key. Mailchimp gave this response: <p><em>%s</em></p> Please try entering your API key again."
+msgstr ""
+
+#: includes/class.mailchimp.api.php:126
+msgid "Error while communicating with the Mailchimp servers: <p><em>%s</em></p>"
+msgstr ""
+
+#: includes/class.mailchimp.api.php:134
+msgid "Error while communicating with the Mailchimp servers."
+msgstr ""
+
+#: includes/class.mailchimp.api.php:201
+msgid "Error: Need to specify the audience ID to receive member info"
+msgstr ""
+
+#: includes/class.mailchimp.api.php:476
+msgid "Detail"
+msgstr ""
+
+#: includes/class.mailchimp.api.php:494
+msgid "Unable to identify error message"
+msgstr ""
+
+#: includes/export-csv.php:5
+msgid "You do not have permissions to perform this action."
+msgstr ""
+
+#: pmpro-mailchimp.php:253
+msgid "Opt-in Mailchimp Audiences"
+msgstr ""
+
+#: pmpro-mailchimp.php:258
+msgid "Mailing Lists"
+msgstr ""
+
+#: pmpro-mailchimp.php:394
+msgid "General Settings"
+msgstr ""
+
+#: pmpro-mailchimp.php:395
+msgid "Mailchimp API Key"
+msgstr ""
+
+#: pmpro-mailchimp.php:396
+msgid "Non-member Users"
+msgstr ""
+
+#: pmpro-mailchimp.php:400
+msgid "Opt-in Audiences"
+msgstr ""
+
+#: pmpro-mailchimp.php:402
+msgid "Require Double Opt-in?"
+msgstr ""
+
+#: pmpro-mailchimp.php:403
+msgid "Unsubscribe on Level Change?"
+msgstr ""
+
+#: pmpro-mailchimp.php:406
+msgid "Membership Levels and Audiences"
+msgstr ""
+
+#: pmpro-mailchimp.php:502
+msgid "Join one or more of our mailing lists."
+msgstr ""
+
+#: pmpro-mailchimp.php:504
+msgid "Join our mailing list."
+msgstr ""
+
+#: pmpro-mailchimp.php:574
+msgid "PMPro is installed."
+msgstr ""
+
+#: pmpro-mailchimp.php:579
+msgid "Once you've <a href='%s'>created some levels in Paid Memberships Pro</a>, you will be able to assign Mailchimp audiences to them here."
+msgstr ""
+
+#: pmpro-mailchimp.php:583
+msgid "For each level below, choose the audience(s) that a new user should be subscribed to when they register."
+msgstr ""
+
+#: pmpro-mailchimp.php:591
+msgid "<a href=\"%s\">Activate Paid Memberships Pro</a> to add membership functionality to your site and finer control over your Mailchimp audiences."
+msgstr ""
+
+#: pmpro-mailchimp.php:596
+msgid "<a href=\"%s\">Install Paid Memberships Pro</a> to add membership functionality to your site and finer control over your Mailchimp audiences."
+msgstr ""
+
+#: pmpro-mailchimp.php:644
+#: pmpro-mailchimp.php:655
+msgid "No"
+msgstr ""
+
+#: pmpro-mailchimp.php:645
+#: pmpro-mailchimp.php:656
+msgid "Yes (Only old level audiences.)"
+msgstr ""
+
+#: pmpro-mailchimp.php:657
+msgid "Yes (All other audiences.)"
+msgstr ""
+
+#: pmpro-mailchimp.php:659
+msgid "Recommended: Yes. However, if you manage multiple audiences in Mailchimp and have users subscribe outside of WordPress, you may want to choose No so contacts aren't unsubscribed from other audiences when they register on your site."
+msgstr ""
+
+#: pmpro-mailchimp.php:675
+msgid "To segment your audience subscribers by membership level, create a custom field in Mailchimp and enter the merge tag here."
+msgstr ""
+
+#: pmpro-mailchimp.php:803
+msgid "Mailchimp Integration Options and Settings"
+msgstr ""
+
+#: pmpro-mailchimp.php:810
+msgid "Subscribe users to one or more Mailchimp audiences when they sign up for your site."
+msgstr ""
+
+#: pmpro-mailchimp.php:811
+msgid "If you have <a href=\"%s\" target=\"_blank\">Paid Memberships Pro</a> installed, you can subscribe members to one or more Mailchimp audiences based on their membership level or specify \"Opt-in Audiences\" that members can select at membership checkout. <a href=\"%s\" target=\"_blank\">Get a Free Mailchimp account</a>."
+msgstr ""
+
+#: pmpro-mailchimp.php:812
+msgid "TIP: To deselect audiences use CTRL+Click(PC) or CMD+Click(Mac)."
+msgstr ""
+
+#: pmpro-mailchimp.php:815
+msgid "Synchronize a Member's Level Name and ID"
+msgstr ""
+
+#: pmpro-mailchimp.php:816
+msgid "Since v2.0, this plugin creates and synchronizes the <code>PMPLEVEL</code> and <code>PMPLEVELID</code> merge field in Mailchimp. <strong>This will only affect new or updated members.</strong> You must import this data into MailChimp for existing members."
+msgstr ""
+
+#: pmpro-mailchimp.php:816
+msgid "Read the documentation on importing existing members into MailChimp"
+msgstr ""
+
+#: pmpro-mailchimp.php:817
+msgid "Click here to export your members list for a MailChimp Import"
+msgstr ""
+
+#: pmpro-mailchimp.php:822
+msgid "Export a CSV for your Mailchimp Import"
+msgstr ""
+
+#: pmpro-mailchimp.php:823
+msgid "Membership Level"
+msgstr ""
+
+#: pmpro-mailchimp.php:833
+msgid "Download List (.CSV)"
+msgstr ""
+
+#: pmpro-mailchimp.php:835
+msgid "Mailchimp Import Steps"
+msgstr ""
+
+#: pmpro-mailchimp.php:837
+msgid "Download a CSV of member data for each membership level."
+msgstr ""
+
+#: pmpro-mailchimp.php:838
+msgid "Log in to Mailchimp."
+msgstr ""
+
+#: pmpro-mailchimp.php:839
+msgid "Go to Audiences -> Choose an Audience -> Add Members -> Import Members -> CSV or tab-delimited text file."
+msgstr ""
+
+#: pmpro-mailchimp.php:841
+msgid "Import columns <code>PMPLEVEL</code> and <code>PMPLEVELID</code>. The fields should have those exact names in all uppercase letters."
+msgstr ""
+
+#: pmpro-mailchimp.php:843
+msgid "Check \"auto update my existing audience\". Click \"Import\"."
+msgstr ""
+
+#: pmpro-mailchimp.php:846
+msgid "For more detailed instructions and screenshots, <a href=\"%s\" target=\"_blank\">click here to read our documentation on importing existing members into Mailchimp</a>."
+msgstr ""
+
+#: pmpro-mailchimp.php:877
+msgid "Save Settings"
+msgstr ""
+
+#: pmpro-mailchimp.php:1079
+msgid "Error during unsubscribe operation. Please report this error to the administrator"
+msgstr ""
+
+#: pmpro-mailchimp.php:1363
+msgid "Settings"
+msgstr ""
+
+#: pmpro-mailchimp.php:1380
+msgid "View Documentation"
+msgstr ""
+
+#: pmpro-mailchimp.php:1380
+msgid "Docs"
+msgstr ""
+
+#: pmpro-mailchimp.php:1381
+msgid "Visit Customer Support Forum"
+msgstr ""
+
+#: pmpro-mailchimp.php:1381
+msgid "Support"
+msgstr ""

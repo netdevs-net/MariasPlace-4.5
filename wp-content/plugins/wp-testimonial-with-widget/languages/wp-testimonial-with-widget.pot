@@ -1,0 +1,919 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Testimonials with rotator widget\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-06-24 12:45+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.4.0; wp-5.4.2"
+
+#: includes/admin/settings/premium.php:243
+msgid "1 Year OR Lifetime"
+msgstr ""
+
+#: includes/admin/wtwp-how-it-work.php:186
+msgid "100% Multi language"
+msgstr ""
+
+#: includes/admin/settings/premium.php:126
+msgid "2 (Grid, Slider)"
+msgstr ""
+
+#: includes/admin/wtwp-how-it-work.php:175
+msgid "20 Designs"
+msgstr ""
+
+#: includes/admin/settings/premium.php:127
+msgid "3 (Grid, Slider, form)"
+msgstr ""
+
+#: includes/admin/metabox/wtwp-post-setting-metabox.php:23
+msgid "3 (Grid, Slider, form)."
+msgstr ""
+
+#: includes/admin/settings/premium.php:130
+msgid "Add extra power to the shortcode"
+msgstr ""
+
+#: includes/wtwp-post-types.php:24
+#, php-format
+msgid "Add New %s"
+msgstr ""
+
+#: includes/wtwp-post-types.php:74
+msgid "Add New Category"
+msgstr ""
+
+#: includes/widget/wp-widget-testimonials.php:164
+msgid "All"
+msgstr ""
+
+#: includes/wtwp-post-types.php:27
+#, php-format
+msgid "All %s"
+msgstr ""
+
+#: includes/wtwp-post-types.php:69
+msgid "All Category"
+msgstr ""
+
+#: includes/admin/wtwp-how-it-work.php:79
+msgid "All Shortcodes"
+msgstr ""
+
+#: includes/admin/settings/premium.php:151
+msgid "Arrange your desired post with your desired order and display"
+msgstr ""
+
+#: includes/admin/metabox/wtwp-post-setting-metabox.php:55
+msgid "Arrange your desired slides with your desired order and display."
+msgstr ""
+
+#: includes/widget/wp-widget-testimonials.php:202
+msgid "Arrows"
+msgstr ""
+
+#: includes/widget/wp-widget-testimonials.php:151
+msgid "Ascending"
+msgstr ""
+
+#: includes/widget/wp-widget-testimonials.php:139
+msgid "Author"
+msgstr ""
+
+#: includes/widget/wp-widget-testimonials.php:211
+msgid "Auto Play"
+msgstr ""
+
+#: includes/admin/settings/premium.php:236
+msgid "Automatic Update "
+msgstr ""
+
+#: includes/widget/wp-widget-testimonials.php:220
+msgid "Autoplay Interval"
+msgstr ""
+
+#: includes/admin/settings/premium.php:181
+msgid "Avada Page Builder(Fusion) Native Support"
+msgstr ""
+
+#: includes/admin/settings/premium.php:166
+msgid "Bevear Builder Support"
+msgstr ""
+
+#: includes/wtwp-post-types.php:76
+#: includes/widget/wp-widget-testimonials.php:158
+msgid "Category"
+msgstr ""
+
+#: includes/admin/wtwp-how-it-work.php:103
+msgid "Check Documentation"
+msgstr ""
+
+#: includes/admin/wtwp-how-it-work.php:111
+msgid "Check Free Demo"
+msgstr ""
+
+#: includes/widget/wp-widget-testimonials.php:234
+msgid "Circle"
+msgstr ""
+
+#: includes/wtwp-functions.php:117
+msgid "Client Name"
+msgstr ""
+
+#: includes/wtwp-functions.php:133
+msgid "Company"
+msgstr ""
+
+#: includes/admin/settings/premium.php:89
+msgid "Compare \"WP Testimonials with rotator widget\" Free VS Pro"
+msgstr ""
+
+#: includes/admin/settings/premium.php:191
+msgid "Custom Read More link for Post "
+msgstr ""
+
+#: includes/widget/wp-widget-testimonials.php:136
+msgid "Date"
+msgstr ""
+
+#: includes/admin/wtwp-how-it-work.php:108
+msgid "Demo"
+msgstr ""
+
+#: includes/widget/wp-widget-testimonials.php:152
+msgid "Descending"
+msgstr ""
+
+#: includes/widget/wp-widget-testimonials.php:116
+msgid "Design"
+msgstr ""
+
+#: includes/wtwp-functions.php:159
+msgid "Design 1"
+msgstr ""
+
+#: includes/wtwp-functions.php:160
+msgid "Design 2"
+msgstr ""
+
+#: includes/wtwp-functions.php:161
+msgid "Design 3"
+msgstr ""
+
+#: includes/wtwp-functions.php:162
+msgid "Design 4"
+msgstr ""
+
+#: includes/admin/metabox/wtwp-post-setting-metabox.php:28
+#: includes/admin/settings/premium.php:120
+msgid "Designs "
+msgstr ""
+
+#: includes/admin/settings/premium.php:120
+msgid "Designs that make your website better"
+msgstr ""
+
+#: includes/widget/wp-widget-testimonials.php:251
+msgid "Display Avatar"
+msgstr ""
+
+#: includes/widget/wp-widget-testimonials.php:263
+msgid "Display Client"
+msgstr ""
+
+#: includes/widget/wp-widget-testimonials.php:275
+msgid "Display Company"
+msgstr ""
+
+#: includes/admin/settings/premium.php:200
+msgid "Display Desired Post "
+msgstr ""
+
+#: includes/admin/wtwp-how-it-work.php:82
+msgid "Display in grid with 4 designs"
+msgstr ""
+
+#: includes/admin/wtwp-how-it-work.php:83
+msgid "Display in slider with 4 designs"
+msgstr ""
+
+#: includes/widget/wp-widget-testimonials.php:269
+msgid "Display Job"
+msgstr ""
+
+#: includes/admin/settings/premium.php:200
+msgid "Display only the post you want"
+msgstr ""
+
+#: includes/admin/settings/premium.php:206
+msgid "Display only the posts with particular category"
+msgstr ""
+
+#: includes/admin/settings/premium.php:221
+msgid "Display post according to date, title and etc"
+msgstr ""
+
+#: includes/admin/settings/premium.php:206
+msgid "Display Post for Particular Categories "
+msgstr ""
+
+#: includes/widget/wp-widget-testimonials.php:257
+msgid "Display Quotes"
+msgstr ""
+
+#: includes/admin/wtwp-how-it-work.php:184
+msgid "Display Testimonial categories wise."
+msgstr ""
+
+#: includes/widget/wp-widget-testimonials.php:33
+msgid "Display testimonials on your site."
+msgstr ""
+
+#: includes/admin/wtwp-how-it-work.php:178
+msgid "Display testimonials using 20 testimonial widget designs."
+msgstr ""
+
+#: includes/admin/settings/premium.php:176
+msgid "Divi Page Builder Native Support"
+msgstr ""
+
+#: includes/admin/wtwp-how-it-work.php:183
+msgid ""
+"Divi Page Builder Native Support. <span class=\"wpos-new-feature\">New</span>"
+msgstr ""
+
+#: includes/admin/settings/premium.php:216
+msgid "Do not display the posts for particular categories"
+msgstr ""
+
+#: includes/admin/settings/premium.php:211
+msgid "Do not display the posts you want"
+msgstr ""
+
+#: includes/admin/metabox/wtwp-post-setting-metabox.php:71
+msgid ""
+"Do not display the testimonial & Do not display the testimonial for "
+"particular categories."
+msgstr ""
+
+#: includes/admin/wtwp-how-it-work.php:100
+msgid "Documentation"
+msgstr ""
+
+#: includes/widget/wp-widget-testimonials.php:193
+msgid "Dots"
+msgstr ""
+
+#: includes/admin/settings/premium.php:151
+msgid "Drag & Drop Post Order Change "
+msgstr ""
+
+#: includes/admin/metabox/wtwp-post-setting-metabox.php:52
+msgid "Drag & Drop Slide Order Change "
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Easy to add and display client's testimonial on your website with rotator "
+"widget. Also work with Gutenberg shortcode block."
+msgstr ""
+
+#: includes/wtwp-post-types.php:25
+#, php-format
+msgid "Edit %s"
+msgstr ""
+
+#: includes/wtwp-post-types.php:72
+msgid "Edit Category"
+msgstr ""
+
+#: includes/admin/settings/premium.php:161
+msgid "Elementor Page Builder Support"
+msgstr ""
+
+#: includes/admin/wtwp-how-it-work.php:182
+msgid ""
+"Elementor, Bevear and SiteOrigin Page Builder Support. <span class=\"wpos-"
+"new-feature\">New</span>"
+msgstr ""
+
+#: includes/admin/wtwp-how-it-work.php:159
+#, php-format
+msgid ""
+"Enjoyed this plugin? You can help by rate this plugin <a href=\"%s\" "
+"target=\"_blank\">5 stars!"
+msgstr ""
+
+#: includes/wtwp-functions.php:118
+msgid "Enter client name."
+msgstr ""
+
+#: includes/wtwp-functions.php:134
+msgid "Enter company name."
+msgstr ""
+
+#: includes/wtwp-functions.php:142
+msgid "Enter company or job url."
+msgstr ""
+
+#: includes/wtwp-functions.php:126
+msgid "Enter job title."
+msgstr ""
+
+#: includes/admin/supports/gutenberg-block.php:237
+msgid "Essential Plugin Blocks"
+msgstr ""
+
+#: includes/admin/settings/trail-premium.php:15
+msgid "Essential Plugin Bundle Free Trial"
+msgstr ""
+
+#: includes/admin/settings/premium.php:216
+msgid "Exclude Some Categories "
+msgstr ""
+
+#: includes/admin/settings/premium.php:211
+msgid "Exclude Some Posts"
+msgstr ""
+
+#: includes/admin/metabox/wtwp-post-setting-metabox.php:68
+msgid "Exclude Testimonial and Exclude Some Categories "
+msgstr ""
+
+#: includes/widget/wp-widget-testimonials.php:196
+#: includes/widget/wp-widget-testimonials.php:205
+#: includes/widget/wp-widget-testimonials.php:214
+#: includes/widget/wp-widget-testimonials.php:244
+msgid "False"
+msgstr ""
+
+#: includes/admin/settings/premium.php:98
+msgid "Free"
+msgstr ""
+
+#: includes/admin/wtwp-how-it-work.php:185
+msgid "Fully responsive"
+msgstr ""
+
+#: includes/admin/wtwp-how-it-work.php:188
+msgid "Gain access to <strong>WP testimonials with rotator widget</strong>"
+msgstr ""
+
+#: includes/admin/settings/premium.php:236
+msgid "Get automatic plugin updates"
+msgstr ""
+
+#: includes/admin/settings/premium.php:241
+msgid "Get support for plugin"
+msgstr ""
+
+#: includes/admin/wtwp-how-it-work.php:53
+msgid "Getting Started"
+msgstr ""
+
+#: includes/admin/wtwp-how-it-work.php:189
+msgid "Grab Testimonial Now"
+msgstr ""
+
+#: includes/admin/wtwp-how-it-work.php:179
+msgid "Gutenberg Block Support."
+msgstr ""
+
+#: includes/admin/settings/premium.php:156
+msgid "Gutenberg Block Supports "
+msgstr ""
+
+#: includes/admin/metabox/wtwp-post-setting-metabox.php:63
+msgid ""
+"Gutenberg Block, Elementor, Bevear Builder, SiteOrigin, Divi, Visual "
+"Composer and Fusion Page Builder Support"
+msgstr ""
+
+#: includes/admin/wtwp-how-it-work.php:124
+msgid "Gutenberg Support"
+msgstr ""
+
+#: includes/admin/wtwp-how-it-work.php:155
+msgid "Help to improve this plugin!"
+msgstr ""
+
+#: includes/admin/wtwp-how-it-work.php:132
+msgid "How it Work"
+msgstr ""
+
+#: includes/admin/class-wtwp-admin.php:175
+#: includes/admin/wtwp-how-it-work.php:35
+msgid "How It Works"
+msgstr ""
+
+#: includes/admin/wtwp-how-it-work.php:45
+msgid "How It Works - Display and shortcode"
+msgstr ""
+
+#: includes/admin/class-wtwp-admin.php:175
+msgid "How it works, our plugins and offers"
+msgstr ""
+
+#: includes/admin/wtwp-how-it-work.php:67
+msgid "How Shortcode Works"
+msgstr ""
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid ""
+"https://www.essentialplugin.com/wordpress-plugin/wp-testimonial-with-widget/"
+msgstr ""
+
+#: includes/widget/wp-widget-testimonials.php:138
+msgid "ID"
+msgstr ""
+
+#: includes/admin/class-wtwp-admin.php:270
+msgid "Image"
+msgstr ""
+
+#: includes/widget/wp-widget-testimonials.php:175
+msgid "Image Size"
+msgstr ""
+
+#: includes/widget/wp-widget-testimonials.php:232
+msgid "Image Style"
+msgstr ""
+
+#: includes/admin/metabox/wtwp-post-setting-metabox.php:31
+msgid "In lite version only 4 design."
+msgstr ""
+
+#: wp-testimonials.php:150
+#, php-format
+msgid ""
+"It looks like you had PRO version %s of this plugin activated. To avoid "
+"conflicts the extra version has been deactivated and we recommend you delete "
+"it."
+msgstr ""
+
+#: includes/wtwp-functions.php:125
+msgid "Job Title"
+msgstr ""
+
+#: includes/admin/metabox/wtwp-post-setting-metabox.php:20
+msgid "Layouts "
+msgstr ""
+
+#: includes/admin/settings/premium.php:237
+#: includes/admin/settings/premium.php:238
+#: includes/admin/settings/premium.php:242
+msgid "Lifetime"
+msgstr ""
+
+#: includes/widget/wp-widget-testimonials.php:128
+msgid "Limit"
+msgstr ""
+
+#: includes/widget/wp-widget-testimonials.php:143
+msgid "Menu Order"
+msgstr ""
+
+#: includes/widget/wp-widget-testimonials.php:137
+msgid "Modified Date"
+msgstr ""
+
+#: includes/admin/class-wtwp-admin.php:155
+msgid "More Premium - Settings"
+msgstr ""
+
+#: includes/admin/settings/premium.php:226
+msgid "Multiple Slider Parameters "
+msgstr ""
+
+#: includes/wtwp-post-types.php:26
+#, php-format
+msgid "New %s"
+msgstr ""
+
+#: includes/wtwp-post-types.php:75
+msgid "New Category Name"
+msgstr ""
+
+#: includes/wtwp-post-types.php:30
+#, php-format
+msgid "No %s Found"
+msgstr ""
+
+#: includes/wtwp-post-types.php:31
+#, php-format
+msgid "No %s Found In Trash"
+msgstr ""
+
+#: includes/widget/wp-widget-testimonials.php:149
+msgid "Order"
+msgstr ""
+
+#: includes/widget/wp-widget-testimonials.php:134
+msgid "Order By"
+msgstr ""
+
+#: includes/admin/metabox/wtwp-post-setting-metabox.php:60
+msgid "Page Builder Support "
+msgstr ""
+
+#: includes/wtwp-post-types.php:70 includes/wtwp-post-types.php:71
+msgid "Parent Category"
+msgstr ""
+
+#: includes/admin/settings/premium.php:135
+msgid ""
+"Play with all shortcode parameters with preview panel. No documentation "
+"required!!"
+msgstr ""
+
+#: includes/admin/metabox/wtwp-post-setting-metabox.php:47
+msgid ""
+"Play with all shortcode parameters with preview panel. No documentation "
+"required."
+msgstr ""
+
+#: includes/wtwp-post-types.php:37
+msgctxt "post archive url slug"
+msgid "wp_testimonial"
+msgstr ""
+
+#: includes/admin/settings/premium.php:221
+msgid "Post Order / Order By Parameters "
+msgstr ""
+
+#: includes/wtwp-post-types.php:21
+msgctxt "post type general name"
+msgid "SP Testimonials"
+msgstr ""
+
+#: includes/wtwp-post-types.php:22
+msgctxt "post type singular name"
+msgid "Testimonial"
+msgstr ""
+
+#: includes/admin/settings/premium.php:101
+msgid "Premium"
+msgstr ""
+
+#: includes/admin/metabox/wtwp-post-setting-metabox.php:20
+#: includes/admin/metabox/wtwp-post-setting-metabox.php:28
+#: includes/admin/metabox/wtwp-post-setting-metabox.php:36
+#: includes/admin/metabox/wtwp-post-setting-metabox.php:44
+#: includes/admin/metabox/wtwp-post-setting-metabox.php:52
+#: includes/admin/metabox/wtwp-post-setting-metabox.php:60
+#: includes/admin/metabox/wtwp-post-setting-metabox.php:68
+msgid "PRO"
+msgstr ""
+
+#: includes/admin/settings/premium.php:196
+msgid "Publicize "
+msgstr ""
+
+#: includes/widget/wp-widget-testimonials.php:142
+msgid "Random"
+msgstr ""
+
+#: includes/admin/settings/premium.php:191
+msgid "Redirect post to third party destination if any"
+msgstr ""
+
+#: includes/wtwp-post-types.php:29
+#, php-format
+msgid "Search %s"
+msgstr ""
+
+#: includes/wtwp-post-types.php:68
+msgid "Search Category"
+msgstr ""
+
+#: includes/widget/wp-widget-testimonials.php:123
+msgid ""
+"Select testimonial design. Note: Some design will not look good in a small "
+"area of widget."
+msgstr ""
+
+#: includes/admin/class-wtwp-admin.php:86
+msgid "Select testimonial rating."
+msgstr ""
+
+#: includes/admin/metabox/wtwp-post-setting-metabox.php:44
+#: includes/admin/settings/premium.php:135
+msgid "Shortcode Generator "
+msgstr ""
+
+#: includes/admin/settings/premium.php:130
+msgid "Shortcode Parameters "
+msgstr ""
+
+#: includes/admin/settings/premium.php:125
+msgid "Shortcode provide output to the front-end side"
+msgstr ""
+
+#: includes/admin/settings/premium.php:125
+msgid "Shortcodes "
+msgstr ""
+
+#: includes/wtwp-post-types.php:36
+msgctxt "single post url slug"
+msgid "testimonial"
+msgstr ""
+
+#: includes/admin/settings/premium.php:171
+msgid "SiteOrigin Page Builder Support"
+msgstr ""
+
+#: includes/widget/wp-widget-testimonials.php:241
+msgid "Slider Auto Height"
+msgstr ""
+
+#: includes/admin/settings/premium.php:226
+msgid "Slider parameters like autoplay, number of slide, sider dots and etc."
+msgstr ""
+
+#: includes/admin/settings/premium.php:231
+msgid "Slider RTL Support "
+msgstr ""
+
+#: includes/admin/settings/premium.php:231
+msgid "Slider supports for RTL website"
+msgstr ""
+
+#: includes/widget/wp-widget-testimonials.php:181
+msgid "Slides Column"
+msgstr ""
+
+#: includes/widget/wp-widget-testimonials.php:187
+msgid "Slides to Scroll"
+msgstr ""
+
+#: includes/admin/class-wtwp-admin.php:178
+msgid "Solutions & Features"
+msgstr ""
+
+#: includes/admin/class-wtwp-admin.php:178
+msgid "Solutions & Features - WP Testimonials with rotator widget"
+msgstr ""
+
+#: includes/widget/wp-widget-testimonials.php:226
+msgid "Speed"
+msgstr ""
+
+#: includes/widget/wp-widget-testimonials.php:235
+msgid "Square"
+msgstr ""
+
+#: includes/admin/wtwp-how-it-work.php:177
+msgid "Star rating"
+msgstr ""
+
+#: includes/admin/wtwp-how-it-work.php:71
+msgid "Step-1. Create a page like Testimonials OR What our client says."
+msgstr ""
+
+#: includes/admin/wtwp-how-it-work.php:57
+msgid "Step-1. Go to \"WP Testimonials --> Add New\"."
+msgstr ""
+
+#: includes/admin/wtwp-how-it-work.php:93
+msgid "Step-1. Go to Appearance --> Widget."
+msgstr ""
+
+#: includes/admin/wtwp-how-it-work.php:136
+msgid "Step-1. Go to the Gutenberg editor of your page."
+msgstr ""
+
+#: includes/admin/wtwp-how-it-work.php:58
+msgid "Step-2. Add  Testimonials title, description and images"
+msgstr ""
+
+#: includes/admin/wtwp-how-it-work.php:72
+msgid "Step-2. Put below shortcode as per your need."
+msgstr ""
+
+#: includes/admin/wtwp-how-it-work.php:137
+msgid "Step-2. Search \"testimonial\" keyword in the gutenberg block list."
+msgstr ""
+
+#: includes/admin/wtwp-how-it-work.php:94
+msgid ""
+"Step-2. Use WP Testimonials Slider to display Testimonials in widget area "
+"with slider"
+msgstr ""
+
+#: includes/admin/wtwp-how-it-work.php:138
+msgid ""
+"Step-3. Add any block of testimonial and you will find its relative options "
+"on the right end side."
+msgstr ""
+
+#: includes/admin/wtwp-how-it-work.php:59
+msgid "Step-3. Add Testimonial Details like Client Name, Job Title detials etc"
+msgstr ""
+
+#: includes/admin/wtwp-how-it-work.php:60
+msgid "Step-4. Once added, press Publish button"
+msgstr ""
+
+#: includes/admin/settings/premium.php:241
+msgid "Support "
+msgstr ""
+
+#: includes/admin/settings/premium.php:196
+msgid "Support with Jetpack to publish your News post on"
+msgstr ""
+
+#: includes/admin/wtwp-how-it-work.php:180
+msgid "Template overriding feature support."
+msgstr ""
+
+#: includes/wtwp-post-types.php:24 includes/wtwp-post-types.php:25
+#: includes/wtwp-post-types.php:26 includes/wtwp-post-types.php:28
+msgid "Testimonial"
+msgstr ""
+
+#: includes/wtwp-post-types.php:23
+msgctxt "testimonial"
+msgid "Add New"
+msgstr ""
+
+#: includes/admin/class-wtwp-admin.php:295
+msgid "Testimonial Category Shortcode"
+msgstr ""
+
+#: includes/admin/class-wtwp-admin.php:52
+msgid "Testimonial Details"
+msgstr ""
+
+#: includes/admin/wtwp-how-it-work.php:176
+msgid "Testimonial front-end form."
+msgstr ""
+
+#: includes/widget/wp-widget-testimonials.php:40
+msgid "Testimonial Post Slider"
+msgstr ""
+
+#: includes/admin/wtwp-how-it-work.php:171
+msgid "Testimonial Premium Features"
+msgstr ""
+
+#: includes/widget/wp-widget-testimonials.php:293
+msgid "Testimonial Slider - Widget"
+msgstr ""
+
+#: includes/widget/wp-widget-testimonials.php:141
+msgid "Testimonial URL Slug"
+msgstr ""
+
+#: includes/wtwp-post-types.php:27 includes/wtwp-post-types.php:29
+#: includes/wtwp-post-types.php:30 includes/wtwp-post-types.php:31
+msgid "Testimonials"
+msgstr ""
+
+#: includes/shortcodes/testimonial-grid.php:23
+msgid "Testimonials - Shortcode"
+msgstr ""
+
+#: includes/shortcodes/testimonial-slider.php:23
+#: includes/shortcodes/testimonial-slider.php:31
+#: includes/shortcodes/testimonial-slider.php:39
+msgid "Testimonials Slider - Shortcode"
+msgstr ""
+
+#: includes/admin/settings/trail-premium.php:15
+msgid "Testimonials with "
+msgstr ""
+
+#: wp-testimonials.php:149
+#, php-format
+msgid "Thank you for activating %s"
+msgstr ""
+
+#: includes/widget/wp-widget-testimonials.php:110
+#: includes/widget/wp-widget-testimonials.php:140
+msgid "Title"
+msgstr ""
+
+#: includes/widget/wp-widget-testimonials.php:195
+#: includes/widget/wp-widget-testimonials.php:204
+#: includes/widget/wp-widget-testimonials.php:213
+#: includes/widget/wp-widget-testimonials.php:243
+msgid "True"
+msgstr ""
+
+#: includes/wtwp-post-types.php:73
+msgid "Update Category"
+msgstr ""
+
+#: includes/admin/class-wtwp-admin.php:181
+msgid "Upgrade To PRO"
+msgstr ""
+
+#: includes/admin/class-wtwp-admin.php:181
+msgid "Upgrade To PRO - WP Testimonials with rotator widget"
+msgstr ""
+
+#: includes/wtwp-functions.php:141
+msgid "URL"
+msgstr ""
+
+#: includes/admin/settings/premium.php:181
+msgid "Use this plugin with Avada Builder easily"
+msgstr ""
+
+#: includes/admin/settings/premium.php:166
+msgid "Use this plugin with Bevear Builder easily"
+msgstr ""
+
+#: includes/admin/settings/premium.php:176
+msgid "Use this plugin with Divi Builder easily"
+msgstr ""
+
+#: includes/admin/settings/premium.php:161
+msgid "Use this plugin with Elementor easily"
+msgstr ""
+
+#: includes/admin/settings/premium.php:156
+msgid "Use this plugin with Gutenberg easily"
+msgstr ""
+
+#: includes/admin/settings/premium.php:171
+msgid "Use this plugin with SiteOrigin easily"
+msgstr ""
+
+#: includes/admin/settings/premium.php:186
+msgid "Use this plugin with Visual Composer/WPBakery page builder easily"
+msgstr ""
+
+#: includes/admin/class-wtwp-admin.php:86
+#: includes/admin/metabox/wtwp-post-setting-metabox.php:14
+#, php-format
+msgid ""
+"Utilize these <a href=\"%s\" target=\"_blank\">Premium Features</a> to get "
+"best of this plugin with Annual or Lifetime bundle deal.."
+msgstr ""
+
+#: includes/wtwp-post-types.php:28
+#, php-format
+msgid "View %s"
+msgstr ""
+
+#: includes/admin/wtwp-how-it-work.php:89
+msgid "Widget"
+msgstr ""
+
+#: includes/admin/settings/premium.php:145
+msgid "Widgets "
+msgstr ""
+
+#: includes/admin/settings/premium.php:145
+msgid "WordPress Widgets to your sidebars."
+msgstr ""
+
+#. Author of the plugin
+msgid "WP OnlineSupport, Essential Plugin"
+msgstr ""
+
+#: includes/admin/metabox/wtwp-post-setting-metabox.php:36
+#: includes/admin/settings/premium.php:140
+msgid "WP Templating Features "
+msgstr ""
+
+#: includes/wtwp-post-types.php:33
+msgid "WP Testimonials"
+msgstr ""
+
+#: includes/widget/wp-widget-testimonials.php:34
+msgid "WP Testimonials Slider"
+msgstr ""
+
+#. Name of the plugin
+msgid "WP Testimonials with Rotator Widget"
+msgstr ""
+
+#: includes/admin/settings/premium.php:15
+msgid "WP Testimonials with rotator widget"
+msgstr ""
+
+#: includes/admin/settings/premium.php:186
+msgid "WPBakery Page Builder Supports "
+msgstr ""
+
+#: includes/admin/wtwp-how-it-work.php:181
+msgid "WPBakery Page Builder Supports."
+msgstr ""
+
+#: includes/admin/metabox/wtwp-post-setting-metabox.php:39
+#: includes/admin/settings/premium.php:140
+msgid "You can modify plugin html/designs in your current theme."
+msgstr ""

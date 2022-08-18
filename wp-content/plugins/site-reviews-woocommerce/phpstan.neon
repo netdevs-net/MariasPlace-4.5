@@ -1,0 +1,24 @@
+includes:
+    - phar://phpstan.phar/conf/bleedingEdge.neon
+    - vendor/szepeviktor/phpstan-wordpress/extension.neon
+parameters:
+  checkGenericClassInNonGenericObjectType: false
+  checkMissingIterableValueType: false
+  level: 5
+  ignoreErrors:
+    - '#Access to an undefined property WP_|GeminiLabs\\SiteReviews\\Arguments::(.+)#'
+    - '#Call to an undefined method GeminiLabs\\SiteReviews\\Review::isVerified\(\)#'
+    - '#Function apply_filters invoked with \d+ parameters, 2 required.#'
+  paths:
+    - config
+    - plugin
+  reportUnmatchedIgnoredErrors: true
+  scanFiles:
+    - autoload.php
+    - ../site-reviews/autoload.php
+    - ../site-reviews/helpers.php
+  scanDirectories:
+    - ../site-reviews/plugin
+    - ../../../Sites/site-reviews/public/app/plugins/elementor
+    - ../../../Sites/site-reviews/public/app/plugins/elementor-pro
+    - ../../../Sites/site-reviews/public/app/plugins/woocommerce

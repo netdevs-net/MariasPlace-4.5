@@ -1,0 +1,56 @@
+# Custom Redirects
+RewriteRule ^creative-activities/recipes/immunity-builder-smoothie/$ https://mariasplace.com/immunity-builder-smoothie/?social [R=301,L]
+RewriteRule ^creative-activities/craft-activities/painting-four-parts/$ https://mariasplace.com/painting-four-parts/ [R=301,L]
+RewriteRule ^brain-games/$ https://mariasplace.com/senior-activities/body-mind-activities/brain-games/ [R=301,L]
+RewriteRule ^planning-and-education/calendars/calendar-templates/$ https://mariasplace.com/calendar-templates/ [R=301,L]
+RewriteRule ^planning-and-education/caregiving-education/general-education/professional-caregivers/activity-program-planning/$ https://mariasplace.com/activity-program-planning/ [R=301,L]
+RewriteRule ^body-mind-activities/exercise-massage/foot-massage/$ https://mariasplace.com/foot-massage/ [R=301,L]
+RewriteRule ^body-mind-activities/exercise-massage/how-to-head-massage/$ https://mariasplace.com/how-to-head-massage/ [R=301,L]
+RewriteRule ^body-mind-activities/reflections/thoughts-on-life/laughter/$ https://mariasplace.com/laughter/ [R=301,L]
+RewriteRule ^body-mind-activities/reflections/thoughts-on-life/think-happy-thoughts/$ https://mariasplace.com/think-happy-thoughts/ [R=301,L]
+RewriteRule ^body-mind-activities/reflections/time-out-articles/things-change/$ https://mariasplace.com/things-change/ [R=301,L]
+RewriteRule ^body-mind-activities/reflections/time-out-articles/time-lateral-thinking/$ https://mariasplace.com/time-lateral-thinking/ [R=301,L]
+RewriteRule ^body-mind-activities/reflections/time-out-articles/time-making-lists/$ https://mariasplace.com/time-making-lists/ [R=301,L]
+RewriteRule ^body-mind-activities/reflections/time-out-articles/time-out-breathe/$ https://mariasplace.com/time-out-breathe/ [R=301,L]
+RewriteRule ^body-mind-activities/reflections/time-out-articles/time-out-compassion/$ https://mariasplace.com/time-out-compassion/ [R=301,L]
+RewriteRule ^body-mind-activities/reflections/time-out-articles/time-out-dance/$ https://mariasplace.com/time-out-dance/ [R=301,L]
+RewriteRule ^body-mind-activities/reflections/time-out-articles/time-out-love-yourself/$ https://mariasplace.com/time-out-love-yourself/ [R=301,L]
+RewriteRule ^body-mind-activities/reflections/time-out-articles/time-pivoting-fear-unease/$ https://mariasplace.com/time-pivoting-fear-unease/ [R=301,L]
+RewriteRule ^body-mind-activities/reflections/time-out-articles/time-quiet-moments/$ https://mariasplace.com/time-quiet-moments/ [R=301,L]
+RewriteRule ^body-mind-activities/reflections/time-out-articles/time-smile-challenge/$ https://mariasplace.com/time-smile-challenge/ [R=301,L]
+RewriteRule ^body-mind-activities/reflections/what-makes-you-happy/$ https://mariasplace.com/what-makes-you-happy/ [R=301,L]
+RewriteRule ^body-mind-activities/trivia-lists/countries-and-capital-cities-in-europe-2017/$ https://mariasplace.com/countries-and-capital-cities-in-europe-2017/ [R=301,L]
+RewriteRule ^community/caregiving-advice/palliative-care-hospice-sooner-is-better-than-later-it-is-a-blessing/$ https://mariasplace.com/palliative-care-hospice-sooner-is-better-than-later-it-is-a-blessing/ [R=301,L]
+RewriteRule ^community/caregiving-advice/the-theory-of-retrogenesis/$ https://mariasplace.com/caregiving-advice/the-theory-of-retrogenesis/ [R=301,L]
+RewriteRule ^craft-activities/clay-modelling/$ https://mariasplace.com/clay-modelling/ [R=301,L]
+RewriteRule ^creative-activities/craft-activities/make-your-own-beanbags/$ https://mariasplace.com/make-your-own-beanbags/ [R=301,L]
+RewriteRule ^creative-activities/craft-activities/mexican-paper-flowers/$ https://mariasplace.com/mexican-paper-flowers/ [R=301,L]
+RewriteRule ^creative-activities/craft-activities/round-floral-arrangement/$ https://mariasplace.com/round-floral-arrangement/ [R=301,L]
+RewriteRule ^creative-activities/craft-activities/templates/$ https://mariasplace.com/templates/ [R=301,L]
+RewriteRule ^creative-activities/craft-activities/vegetable-print-project/$ https://mariasplace.com/vegetable-print-project/ [R=301,L]
+RewriteRule ^creative-activities/craft-activities/vegetable-printing/$ https://mariasplace.com/vegetable-printing/ [R=301,L]
+RewriteRule ^creative-activities/inspirational-stories/tommys-story/$ https://mariasplace.com/tommys-story/ [R=301,L]
+RewriteRule ^creative-activities/marias-journal/rummage-bag/$ https://mariasplace.com/rummage-bag/ [R=301,L]
+RewriteRule ^creative-activities/recipes/cucumber-finger-food/$ https://mariasplace.com/cucumber-finger-food/ [R=301,L]
+RewriteRule ^creative-activities/recipes/energy-and-memory-booster/$ https://mariasplace.com/energy-and-memory-booster/ [R=301,L]
+RewriteRule ^creative-activities/seasonal-activities/christmas/floral-christmas-cracker/$ https://mariasplace.com/floral-christmas-cracker/ [R=301,L]
+RewriteRule ^creative-activities/seasonal-activities/halloween/halloween-pumpkin-table-centre/$ https://mariasplace.com/halloween-pumpkin-table-centre/ [R=301,L]
+RewriteRule ^creative-activities/seasonal-activities/halloween/halloween-spiders/$ https://mariasplace.com/halloween-spiders/ [R=301,L]
+RewriteRule ^reflections/time-out-articles/time-out-buttons/$ https://mariasplace.com/time-out-buttons/ [R=301,L]
+RewriteRule ^senior-activities/inspirational-stories/$ https://mariasplace.com/ [R=301,L]
+RewriteRule ^senior-activities/body-mind-activities/word-games/and-more/$ https://mariasplace.com/senior-activities/body-mind-activities/word-games/more-word-games/ [R=301,L]
+RewriteRule ^senior-activities/community/caregiving-advice/$ https://mariasplace.com/ [R=301,L]
+
+
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+
+# END WordPress
+

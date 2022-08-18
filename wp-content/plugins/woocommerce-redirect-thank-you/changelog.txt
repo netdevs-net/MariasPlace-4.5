@@ -1,0 +1,53 @@
+*** WooCommerce Conditional Thank You ***
+
+2019-09-23 vesion 2.0.3
+* Fix for 404 on Thank You pages. Was related to added query var.
+* Fix for  Uncaught Error: Call to undefined function wc_print_notices() after adding shortcode to Gutenberg page.
+* Fix for stripslash() error.
+
+2019-09-13 version 2.0.2
+* Fix for payment gateways throwing error on settings page.
+* Add order-received query var to custom thank you pages so plugins report correctly.
+* Adding gateway redirect to filter is_order_received_page()
+
+2019-04-16 version 2.0.1
+* Fix gateways not showing in the payment gateway dropdown.
+
+2019-01-24 version 2.0.0
+* [ADD] Global custom URL redirect.
+* [ADD] Custom redirect URLs. It is now possible to redirect customers off site after purchase.
+* [ADD] Redirect based on payment gateway.
+* [ADD] Redirect based on product variation.
+* [ADD] Add script to custom Thank You pages for conversion pixels.
+* [ADD] Add text to the New Order email when products are in the order.
+* [ADD] Conditional shortcodes to show/hide text on pages depending on if it was redirected from checkout.
+* Fixed plugin updater.
+
+2017-10-13 version 1.0.7
+* Fix for fatal error when Yoast SEO tries to render a thank you page with shortcode in the admin.
+
+2017-05-29  version 1.0.6
+* Updated plugin links
+* Code Cleanup
+* Updated thankyou.php template override to 3.0.0
+
+2015-10-12  version 1.0.5
+* Auto load payment gateways so BACS and Cheque instructions show correctly.
+
+2015-07-31  version 1.0.4
+* Verified WC 2.4.0 compatibility
+* Updated template/checkout/thankyou.php to version 2.2.0
+* Updating text domains
+
+2015-05-27 version 1.0.3
+* Fixed cart clearing after redirect to a global thank you page
+
+2015-04-30 version 1.0.2
+* Added a global Thank You page setting to override WooCommerce endpoint
+
+2015-02-28 version 1.0.1
+* Fixed width of select in the metabox
+* Updated phpdoc
+
+2014-05-29 version 1.0.0
+* First Release

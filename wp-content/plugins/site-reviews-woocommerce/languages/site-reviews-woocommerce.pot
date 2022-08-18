@@ -1,0 +1,270 @@
+# Copyright (C) 2022 site-reviews-woocommerce
+# This file is distributed under the same license as the site-reviews-woocommerce package.
+msgid ""
+msgstr ""
+"Project-Id-Version: site-reviews-woocommerce\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language-Team: Gemini Labs <support@geminilabs.io>\n"
+"Last-Translator: Paul Ryley <paul@geminilabs.io>\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: activate.php:102
+msgctxt "admin-text"
+msgid "The %s plugin was deactivated."
+msgstr ""
+
+#: activate.php:103
+msgctxt "admin-text"
+msgid "PHP version"
+msgstr ""
+
+#: activate.php:104
+msgctxt "admin-text"
+msgid "You can use the %s plugin to restore %s to the previous version."
+msgstr ""
+
+#: activate.php:105
+msgctxt "admin-text"
+msgid "Please contact your hosting provider or server administrator to upgrade the version of PHP on your server (your server is running PHP version %s), or try to find an alternative plugin."
+msgstr ""
+
+#: activate.php:106
+msgctxt "admin-text"
+msgid "Update WordPress"
+msgstr ""
+
+#: activate.php:107
+msgctxt "admin-text"
+msgid "WordPress version"
+msgstr ""
+
+#: activate.php:108
+msgctxt "admin-text"
+msgid "This plugin requires %s or greater in order to work properly."
+msgstr ""
+
+#: config/settings.php:8
+msgctxt "admin-text"
+msgid "Enable Integration?"
+msgstr ""
+
+#: config/settings.php:9
+msgctxt "admin-text"
+msgid "This will completely replace the default Woocommerce review system with Site Reviews. If you have existing Woocommerce comment reviews, you may need to first export them to a CSV file, and then import them using the %s tool."
+msgstr ""
+
+#: config/settings.php:10
+msgctxt "admin-text"
+msgid "Import Reviews"
+msgstr ""
+
+#: config/settings.php:20
+msgctxt "admin-text"
+msgid "Rating Style"
+msgstr ""
+
+#: config/settings.php:22
+msgctxt "admin-text"
+msgid "Site Reviews (yellow)"
+msgstr ""
+
+#: config/settings.php:23
+msgctxt "admin-text"
+msgid "Woocommerce (black)"
+msgstr ""
+
+#: config/settings.php:24
+msgctxt "admin-text"
+msgid "Woocommerce (purple)"
+msgstr ""
+
+#: config/settings.php:26
+msgctxt "admin-text"
+msgid "This changes the colour of the stars and the summary bars"
+msgstr ""
+
+#: config/settings.php:35
+msgctxt "admin-text"
+msgid "Summary Shortcode"
+msgstr ""
+
+#: config/settings.php:36
+msgctxt "admin-text"
+msgid "Enter the summary shortcode used on the product page (the schema option is unnecessary)"
+msgstr ""
+
+#: config/settings.php:45
+msgctxt "admin-text"
+msgid "Reviews Shortcode"
+msgstr ""
+
+#: config/settings.php:46
+msgctxt "admin-text"
+msgid "Enter the reviews shortcode used on the product page (the schema option is unnecessary)"
+msgstr ""
+
+#: config/settings.php:55
+msgctxt "admin-text"
+msgid "Form Shortcode"
+msgstr ""
+
+#: config/settings.php:56
+msgctxt "admin-text"
+msgid "Enter the form shortcode used on the product page"
+msgstr ""
+
+#: config/settings.php:66
+msgctxt "admin-text"
+msgid "The problem with average star ratings"
+msgstr ""
+
+#: config/settings.php:67
+msgctxt "admin-text"
+msgid "Of bayesian average and star ratings"
+msgstr ""
+
+#: config/settings.php:69
+msgctxt "admin-text"
+msgid "Product Sorting"
+msgstr ""
+
+#: config/settings.php:71
+msgctxt "admin-text"
+msgid "Average Rating"
+msgstr ""
+
+#: config/settings.php:72
+msgctxt "admin-text"
+msgid "Bayesian Average Rating"
+msgstr ""
+
+#: config/settings.php:74
+msgctxt "admin-text"
+msgid "This is the method used to sort products by rating on the shop page."
+msgstr ""
+
+#: config/settings.php:82
+msgctxt "admin-text"
+msgid "Display empty ratings?"
+msgstr ""
+
+#: config/settings.php:83
+msgctxt "admin-text"
+msgid "This will display the rating stars even if the product has no reviews."
+msgstr ""
+
+#: config/settings.php:91
+msgctxt "admin-text"
+msgid "Enable Experiments?"
+msgstr ""
+
+#: config/settings.php:92
+msgctxt "admin-text"
+msgid "Access new and experimental features before they are officially released. As these features are still in development, they are likely to change, evolve or even be removed altogether."
+msgstr ""
+
+#: config/settings.php:93
+msgctxt "admin-text"
+msgid "To use an experiment on your site, click on the dropdown next to it and switch to Active. You can always deactivate them at any time."
+msgstr ""
+
+#: config/settings.php:103
+msgctxt "admin-text"
+msgid "Active"
+msgstr ""
+
+#: config/settings.php:104
+msgctxt "admin-text"
+msgid "Inactive"
+msgstr ""
+
+#: config/settings.php:106
+msgctxt "admin-text"
+msgid "Filter Comment Queries"
+msgstr ""
+
+#: config/settings.php:107
+msgctxt "admin-text"
+msgid "This will filter the output of the wp_comments() function when it's used to query Woocommerce product reviews."
+msgstr ""
+
+#: config/settings.php:109
+msgctxt "admin-text"
+msgid "This may fix issues with other plugins which query Woocommerce product reviews. Keep in mind that activating this experiment may also cause conflicts with incompatible plugins."
+msgstr ""
+
+#: config/settings.php:110
+msgctxt "admin-text"
+msgid "Status: Beta"
+msgstr ""
+
+#: plugin/Application.php:31
+msgctxt "admin-text"
+msgid "All Product Categories"
+msgstr ""
+
+#: plugin/Gatekeeper.php:99
+msgctxt "admin-text"
+msgid "%s requires the latest version of"
+msgid_plural "%s requires the latest version of the following plugins:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: plugin/Gatekeeper.php:115
+msgctxt "admin-text"
+msgid "%s needs an update to work with"
+msgid_plural "%s needs an update to work with the following plugins:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: plugin/Reminder.php:12
+msgctxt "admin-text"
+msgid ""
+msgstr ""
+
+#: plugin/Reminder.php:21
+msgctxt "admin-text"
+msgid "Site Reviews: Review Reminder"
+msgstr ""
+
+#: plugin/Reminder.php:65
+msgid "We would love if you could help us and other customers by reviewing products that you recently purchased in order #{order_id}. It only takes a minute and it would really help others. Click the button below and leave your review!"
+msgstr ""
+
+#: plugin/Reminder.php:73
+msgid "Thanks for shopping with us!"
+msgstr ""
+
+#: plugin/Reminder.php:81
+msgid "{site_title}: Review Your Experience with Us"
+msgstr ""
+
+#: plugin/ReviewVerifiedTag.php:16
+msgid "verified owner"
+msgstr ""
+
+#: views/product-options.php:8
+msgctxt "admin-text"
+msgid "Enable reviews"
+msgstr ""
+
+#: views/settings.php:6
+msgctxt "admin-text"
+msgid "The shortcodes entered below <strong>must</strong> include the <code>assigned_posts=\"post_id\"</code> option as it connects the reviews to the product."
+msgstr ""
+
+#: plugin/Controllers/Controller.php:90
+msgctxt "admin-text"
+msgid "managed by Site Reviews"
+msgstr ""
+
+#: plugin/Controllers/ProductController.php:154
+msgid "Reviews (%d)"
+msgstr ""
